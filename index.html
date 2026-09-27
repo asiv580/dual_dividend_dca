@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-page-node-id="kpZ28Ms48NBHaKLfUrsme0"><head data-page-node-id="Cibc1SV2EJeCaHcnj9zTKf"><meta charset="utf-8" data-page-node-id="Ez58q9EWkMV7rs80GMpLSA">
-<meta name="viewport" content="width=device-width,initial-scale=1" data-page-node-id="2OePWsuRQCrj7WxGZdbNgu">
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>双红利定投策略报告 v1.0（严格短窗回测 2024-07 起）</title>
 <style>
 body{margin:0;background:#f4f6f8;color:#1f2937;font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;line-height:1.65}
@@ -20,364 +20,374 @@ tr:hover td{background:#f8fafc}
 .grid{display:flex;gap:12px;flex-wrap:wrap}
 .mono{font-variant-numeric:tabular-nums}
 .link-hint{font-size:12px;color:#d97706;background:#fffbeb;border:1px dashed #fcd34d;border-radius:8px;padding:6px 10px;margin:4px 0 10px;display:inline-block}
-</style></head><body data-page-node-id="Rfk6e0S9eHw0fOBb35N7KB"><div class="wrap" data-page-node-id="3oAvzOPbkAwWdNx9HanvOu">
+</style></head><body><div class="wrap">
 
-<span class="tagv" data-page-node-id="bNZxqoKCPD7ktFje1FCBvF">v1.0 基线</span><span class="tag" data-page-node-id="Kg7gt9fD7lNpOLnQc5ZWEg">严格短窗 · 2024-07 ~ 2026-08</span>
-<h1 data-page-node-id="kVCAbD5BNlk9dH37ope79P">双红利定投策略报告</h1>
-<div class="sub" data-page-node-id="Xlt09PH639Bj0lrI18CWfB">008163 标普红利低波50 : 932315 中证红利质量 = 4:6 · 基准 ¥1,500/月 · 双锚三档分层 DCA · 口径与每日监控 automation-1788146588311 一致</div>
+<span class="tagv">v1.0 基线</span><span class="tag">严格短窗 · 2024-07 ~ 2026-09（27 期）</span>
+<h1>双红利定投策略报告</h1>
+<div class="sub">008163 标普红利低波50 : 932315 中证红利质量 = 4:6 · 基准 ¥1,500/月 · 双锚三档分层 DCA · 口径与每日监控 automation-1788146588311 一致 · 数据截至 2026-09-24</div>
 
-<div class="grid" data-page-node-id="SnDvase7uMvfHZSeL9aIZV"><div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px" data-page-node-id="ThaQpUQbS0p8iPQ6XXyYMd">
-<div style="font-size:12px;color:#64748b;margin-bottom:6px" data-page-node-id="n2FjRxT2EAmT57CpUWj9fp">双锚策略 XIRR</div>
-<div style="font-size:22px;font-weight:700;color:#2563eb" data-page-node-id="WToc1gwW5aBMFNDKE3nHeO">10.21%</div>
-<div style="font-size:11px;color:#94a3b8;margin-top:4px" data-page-node-id="DTsUhODx45YddBR5K4kJPd">vs 固定1x 8.46% · 超额 +1.75pp</div>
+<div class="grid"><div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px">
+<div style="font-size:12px;color:#64748b;margin-bottom:6px">双锚策略 XIRR</div>
+<div style="font-size:22px;font-weight:700;color:#2563eb">6.71%</div>
+<div style="font-size:11px;color:#94a3b8;margin-top:4px">vs 固定1x 5.30% · 超额 +1.41pp</div>
 </div>
-<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px" data-page-node-id="84yCa13z8DjpBC5TEBmwph">
-<div style="font-size:12px;color:#64748b;margin-bottom:6px" data-page-node-id="gy2YeR4Vb5uUMxoxEjblWP">期末市值</div>
-<div style="font-size:22px;font-weight:700;color:#059669" data-page-node-id="frYPBOUs2NYAmJ25vcSBGX">¥56,523</div>
-<div style="font-size:11px;color:#94a3b8;margin-top:4px" data-page-node-id="Uu4FI3EFvEX3L2JshLTrA7">投入 ¥51,000 · 收益 ¥5,523 (+10.8%)</div>
+<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px">
+<div style="font-size:12px;color:#64748b;margin-bottom:6px">期末市值</div>
+<div style="font-size:22px;font-weight:700;color:#059669">¥57,276</div>
+<div style="font-size:11px;color:#94a3b8;margin-top:4px">投入 ¥53,400 · 收益 ¥3,876 (+7.3%)</div>
 </div>
-<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px" data-page-node-id="uLARdChKejiqjKB1qlWuXo">
-<div style="font-size:12px;color:#64748b;margin-bottom:6px" data-page-node-id="w8bsfKN197UDJ0OQiSfTab">固定1x 对照</div>
-<div style="font-size:22px;font-weight:700;color:#64748b" data-page-node-id="sdgYkOq9zn0pWLq9egEzLJ">¥42,470</div>
-<div style="font-size:11px;color:#94a3b8;margin-top:4px" data-page-node-id="9Q3erLgmpuvL81dGfV6ou6">投入 ¥39,000 · 收益 ¥3,470 (+8.9%)</div>
+<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px">
+<div style="font-size:12px;color:#64748b;margin-bottom:6px">固定1x 对照</div>
+<div style="font-size:22px;font-weight:700;color:#64748b">¥42,824</div>
+<div style="font-size:11px;color:#94a3b8;margin-top:4px">投入 ¥40,500 · 收益 ¥2,324 (+5.7%)</div>
 </div>
-<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px" data-page-node-id="QKLIeJk6gmYFQ7jRR7rX24">
-<div style="font-size:12px;color:#64748b;margin-bottom:6px" data-page-node-id="9Y45AXt0BIEqa8Md1NyTYr">2x 抢投 / 1.5x / 跌3%</div>
-<div style="font-size:22px;font-weight:700;color:#d97706" data-page-node-id="zACwFpHfuXofC2fw7uDSMy">0 / 2 / 14</div>
-<div style="font-size:11px;color:#94a3b8;margin-top:4px" data-page-node-id="ZwvokZtVZagRe5PlLSypEe">52 个腿月中：月末1x 36、跌3%→2x 14、1.5x 2</div>
+<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;flex:1;min-width:150px">
+<div style="font-size:12px;color:#64748b;margin-bottom:6px">2x 抢投 / 1.5x / 跌3%</div>
+<div style="font-size:22px;font-weight:700;color:#d97706">0 / 2 / 15</div>
+<div style="font-size:11px;color:#94a3b8;margin-top:4px">54 个腿月中：月末1x 37、跌3%→2x 15、1.5x 2</div>
 </div></div>
 
-<div class="card" data-page-node-id="AoASTHEMd23AdXihdwUxOZ">
-<h2 data-page-node-id="GOgL3tbHZFTSEqU7ILsDYe">一、结论</h2>
-<p style="font-size:14px" data-page-node-id="82kwrDvRsR3o5T7QAo5pZY"><b data-page-node-id="ssTnAmmJMi6nFtFv9iF1Af">严格短窗（2024-07 起 26 期）下，双锚三档分层规则相对"每月固定 1x 月末定投"产生 +1.75pp 的 XIRR 超额（10.21% vs 8.46%）</b>，多投入 ¥12,000 的同时多赚 ¥2,053。超额全部来自规则本身的行为差异——2.2 年红利牛市中估值从未进入 2x 抢投区（两腿便宜度始终 &lt;0.85），<b data-page-node-id="EhjRMx4pcj812Pa70WeTUs">规则的价值主要体现在"1x 档 + 跌3%叠加"（14 次腿月触发）与期初 1.5x（2 次）</b>：市场回调时提前以 2 倍接筹、摊低成本。</p>
-<ul style="font-size:13.5px;padding-left:20px" data-page-node-id="aulDyvMX9SGQ6brV7S5296">
-<li data-page-node-id="ZrJKKXWGLrAImamky7JOz9"><b data-page-node-id="Q7XKxuF09qjtEJZIOrH5K7">触发画像</b>：52 个腿月中，2x 抢投 0 次、1.5x 档 2 次（2024-07/09，红利质量回调期）、跌3%→2x <b data-page-node-id="hEjN2lPBVCfLVtOaTCKe0V">14 次</b>、月末1x 36 次。无便宜度极值、多急跌接筹——这是"震荡/慢牛红利市"下规则的真实运作形态。</li>
-<li data-page-node-id="dmJFFeilB11hKpHX4E9NFd"><b data-page-node-id="B8Um6PbKp2CHDHno2SyVTv">策略投入节奏</b>：26 个月累计投入 ¥51,000（较固定 1x 的 ¥39,000 高 31%），其中 16 个腿月以 1.5x/2x 高位阶提前投入。</li>
-<li data-page-node-id="f6C4eBcrIHJBj2U8AcCgD4"><b data-page-node-id="pBtFVQxMuNomIRo7MnMeH6">期末（2026-08-27）</b>：策略市值 ¥56,523、收益 +10.8%；固定 1x 市值 ¥42,470、+8.9%。</li>
+<div class="card">
+<h2>一、结论</h2>
+<p style="font-size:14px"><b>严格短窗（2024-07-11 起 27 期）下，双锚三档分层规则相对"每月固定 1x 月末定投"产生 +1.41pp 的 XIRR 超额（6.71% vs 5.30%）</b>，多投入 ¥12,900 的同时多赚 ¥14,452。超额全部来自规则本身的行为差异——2.2 年红利市里估值从未进入 2x 抢投区（两腿便宜度始终 &lt;0.85），<b>规则的价值主要体现在"1x 档 + 跌3%叠加"（15 次腿月触发）与期初 1.5x（2 次）</b>：市场回调时提前以 2 倍接筹、摊低成本。</p>
+<ul style="font-size:13.5px;padding-left:20px">
+<li><b>触发画像</b>：54 个腿月中，2x 抢投 0 次、1.5x 档 2 次（2024-07、2024-09，红利质量回调期）、跌3%→2x <b>15 次</b>、月末1x 37 次。无便宜度极值、多急跌接筹——这是"震荡/慢牛红利市"下规则的真实运作形态。</li>
+<li><b>策略投入节奏</b>：27 个月累计投入 ¥53,400（较固定 1x 的 ¥40,500 高 32%），其中 17 个腿月以 1.5x/2x 高位阶提前投入。</li>
+<li><b>期末（2026-09-24）</b>：策略市值 ¥57,276、收益 +7.3%；固定 1x 市值 ¥42,824、+5.7%。</li>
 </ul>
 </div>
 
-<div class="card" data-page-node-id="TKoQ88ZZjlGR1LeUOaH0YV">
-<h2 data-page-node-id="EsBWLZJH3OHjv0eMAHGRiV">二、月度账户轨迹（全收益点位口径）</h2>
-<span class="link-hint" data-page-node-id="7umNVLGZB1bbwAWql6t94N">🖱 上下两图共用同一时间轴：鼠标划过任一图，另一图同步定位同月（橙色竖线 + 数值气泡）</span>
-<svg id="ch1" viewBox="0 0 660.0 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:-apple-system,'PingFang SC',sans-serif;cursor:crosshair;display:block" data-page-node-id="QTrIrd2gNcgG6muta1ubUt">
-<polygon points="55.0,206.0 78.6,198.9 102.2,186.7 125.8,183.4 149.4,178.7 173.0,173.0 196.6,164.3 220.2,160.5 243.8,154.2 267.4,145.8 291.0,138.8 314.6,133.7 338.2,127.4 361.8,117.8 385.4,111.9 409.0,102.7 432.6,99.1 456.2,91.5 479.8,79.4 503.4,71.5 527.0,67.9 550.6,63.4 574.2,61.7 597.8,62.5 621.4,40.2 645.0,35.8 645.0,212 55,212" fill="#2563eb" opacity="0.12" data-page-node-id="w3Z31vesvZzpJAtKFId9Ws"/><polygon points="55.0,207.3 78.6,202.8 102.2,196.4 125.8,192.6 149.4,187.9 173.0,182.4 196.6,178.3 220.2,174.2 243.8,168.4 267.4,164.7 291.0,158.4 314.6,153.4 338.2,147.5 361.8,139.2 385.4,133.7 409.0,127.7 432.6,123.8 456.2,117.0 479.8,106.7 503.4,101.7 527.0,100.1 550.6,95.5 574.2,95.1 597.8,98.2 621.4,82.5 645.0,79.6 645.0,212 55,212" fill="#94a3b8" opacity="0.12" data-page-node-id="Noip8H6FpfRaresYYtBG2w"/>
-<polyline points="55.0,206.0 78.6,198.9 102.2,186.7 125.8,183.4 149.4,178.7 173.0,173.0 196.6,164.3 220.2,160.5 243.8,154.2 267.4,145.8 291.0,138.8 314.6,133.7 338.2,127.4 361.8,117.8 385.4,111.9 409.0,102.7 432.6,99.1 456.2,91.5 479.8,79.4 503.4,71.5 527.0,67.9 550.6,63.4 574.2,61.7 597.8,62.5 621.4,40.2 645.0,35.8" fill="none" stroke="#2563eb" stroke-width="2.2" data-page-node-id="xUS1HRBlqv1WAjFHUiVeMH"/><polyline points="55.0,207.3 78.6,202.8 102.2,196.4 125.8,192.6 149.4,187.9 173.0,182.4 196.6,178.3 220.2,174.2 243.8,168.4 267.4,164.7 291.0,158.4 314.6,153.4 338.2,147.5 361.8,139.2 385.4,133.7 409.0,127.7 432.6,123.8 456.2,117.0 479.8,106.7 503.4,101.7 527.0,100.1 550.6,95.5 574.2,95.1 597.8,98.2 621.4,82.5 645.0,79.6" fill="none" stroke="#64748b" stroke-width="2.2" data-page-node-id="K3wPJHbeAG1GCzJZlzoGMJ"/>
-<line x1="55" y1="212.0" x2="645.0" y2="212.0" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="GohAcGxIF2N80GXE6HQYR7"/><text x="48" y="215.0" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="cCD4DYBZvibM6QpgONkSLQ">0.0万</text><line x1="55" y1="165.8" x2="645.0" y2="165.8" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="qpFZbf7JpbZ3eTbaOUwpFz"/><text x="48" y="168.8" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="r5aD9yvdXFgDL6MCpQnUCA">1.5万</text><line x1="55" y1="119.5" x2="645.0" y2="119.5" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="wn0hRxDVfx48zQwcNqzKlh"/><text x="48" y="122.5" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="yxNT652zLLUR5zl8ES8btV">3.0万</text><line x1="55" y1="73.2" x2="645.0" y2="73.2" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="k15IfEWXHMteY4fFN0kfbW"/><text x="48" y="76.2" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="AMXrnKINxXlgH7riG3izOz">4.5万</text><line x1="55" y1="27.0" x2="645.0" y2="27.0" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="GHQ69caKKGBSdhDxxD9AzA"/><text x="48" y="30.0" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="9Y3lMfSHqYDKxKLwM6UYH5">5.9万</text>
-<text x="55.0" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="ZhdMEcguS5o0CbI6wmQ03X">24/07</text><text x="125.8" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="wrsDxWpFJMOqwWz45cH0As">24/10</text><text x="196.6" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="uof6cSqpIDPiCzvP4LHF5V">25/01</text><text x="267.4" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="L1Mtm8FyYViV7tNSbiMOyd">25/04</text><text x="338.2" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="HKOBEK07AeTCFTTVvpXRzX">25/07</text><text x="409.0" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="FTti5ZA2hJ4XsqLAfKoJNJ">25/10</text><text x="479.8" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="2R3J1U6YyuwbQEboZq4Tqb">26/01</text><text x="550.6" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="Jx34SnXVvz1jsHNpY1DtbP">26/04</text><text x="621.4" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="sY28fMftoGWEKnwNPA1cDL">26/07</text><text x="645.0" y="230" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="cGQMp0s3PkfztSmcNf9POk">26/08</text>
-<text x="645.0" y="35.8" font-size="11" fill="#2563eb" text-anchor="end" font-weight="600" data-page-node-id="w4fSBcSJyo0Kya0tyjmv1b">双锚策略 ¥56,523</text>
-<text x="645.0" y="95.6" font-size="11" fill="#64748b" text-anchor="end" data-page-node-id="kzVlcl8tdOEU2uo5Gy8tHf">固定1x ¥42,470</text>
-<g id="cr1" style="display:none;pointer-events:none" data-page-node-id="HTkSEhZNAs1cSBbFasOpH0">
-<line id="vl1" y1="14" y2="212" stroke="#f59e0b" stroke-width="1.1" stroke-dasharray="3,3" data-page-node-id="UVjGgHrQvtasJY7JoovwBb"/>
-<line id="hl1" x1="55" x2="645.0" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="2,3" data-page-node-id="LLKVJUrqGq01ZDhaCYvnRd"/>
-<circle id="dp1S" r="3.6" fill="#fff" stroke="#2563eb" stroke-width="2" data-page-node-id="BnPLtmy741NM6ZSdousc49"/>
-<circle id="dp1F" r="3.6" fill="#fff" stroke="#64748b" stroke-width="2" data-page-node-id="iqSMLO2jX3dQQlF0wJHUg8"/>
-<text id="tt1" y="14" font-size="11" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="4" paint-order="stroke" text-anchor="middle" data-page-node-id="LsE9vG7BCXaugSYF8522GL"></text>
+<div class="card">
+<h2>二、月度账户轨迹（全收益点位口径）</h2>
+<span class="link-hint">🖱 上下两图共用同一时间轴：鼠标划过任一图，另一图同步定位同月（橙色竖线 + 数值气泡）</span>
+<svg id="ch1" viewBox="0 0 660.0 240" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:-apple-system,'PingFang SC',sans-serif;cursor:crosshair;display:block">
+<polygon points="55.0,206.1 77.7,199.1 100.4,187.1 123.1,183.8 145.8,179.2 168.5,173.5 191.2,164.9 213.8,161.1 236.5,154.9 259.2,146.6 281.9,139.7 304.6,134.7 327.3,128.4 350.0,119.0 372.7,113.2 395.4,104.1 418.1,100.5 440.8,93.1 463.5,81.1 486.2,73.2 508.8,69.7 531.5,65.3 554.2,63.6 576.9,64.4 599.6,42.4 622.3,36.9 645.0,35.8 645.0,212 55,212" fill="#2563eb" opacity="0.12"/><polygon points="55.0,207.4 77.7,202.9 100.4,196.6 123.1,192.8 145.8,188.2 168.5,182.8 191.2,178.7 213.8,174.7 236.5,169.0 259.2,165.3 281.9,159.1 304.6,154.1 327.3,148.3 350.0,140.1 372.7,134.7 395.4,128.8 418.1,125.0 440.8,118.2 463.5,108.0 486.2,103.1 508.8,101.5 531.5,97.0 554.2,96.6 576.9,99.7 599.6,84.2 622.3,80.5 645.0,80.3 645.0,212 55,212" fill="#94a3b8" opacity="0.12"/>
+<polyline points="55.0,206.1 77.7,199.1 100.4,187.1 123.1,183.8 145.8,179.2 168.5,173.5 191.2,164.9 213.8,161.1 236.5,154.9 259.2,146.6 281.9,139.7 304.6,134.7 327.3,128.4 350.0,119.0 372.7,113.2 395.4,104.1 418.1,100.5 440.8,93.1 463.5,81.1 486.2,73.2 508.8,69.7 531.5,65.3 554.2,63.6 576.9,64.4 599.6,42.4 622.3,36.9 645.0,35.8" fill="none" stroke="#2563eb" stroke-width="2.2"/><polyline points="55.0,207.4 77.7,202.9 100.4,196.6 123.1,192.8 145.8,188.2 168.5,182.8 191.2,178.7 213.8,174.7 236.5,169.0 259.2,165.3 281.9,159.1 304.6,154.1 327.3,148.3 350.0,140.1 372.7,134.7 395.4,128.8 418.1,125.0 440.8,118.2 463.5,108.0 486.2,103.1 508.8,101.5 531.5,97.0 554.2,96.6 576.9,99.7 599.6,84.2 622.3,80.5 645.0,80.3" fill="none" stroke="#64748b" stroke-width="2.2"/>
+<line x1="55" y1="212.0" x2="645.0" y2="212.0" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="215.0" font-size="9" fill="#94a3b8" text-anchor="end">0.0万</text><line x1="55" y1="165.8" x2="645.0" y2="165.8" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="168.8" font-size="9" fill="#94a3b8" text-anchor="end">1.5万</text><line x1="55" y1="119.5" x2="645.0" y2="119.5" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="122.5" font-size="9" fill="#94a3b8" text-anchor="end">3.0万</text><line x1="55" y1="73.2" x2="645.0" y2="73.2" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="76.2" font-size="9" fill="#94a3b8" text-anchor="end">4.5万</text><line x1="55" y1="27.0" x2="645.0" y2="27.0" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="30.0" font-size="9" fill="#94a3b8" text-anchor="end">6.0万</text>
+<text x="55.0" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">24/07</text><text x="123.1" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">24/10</text><text x="191.2" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">25/01</text><text x="259.2" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">25/04</text><text x="327.3" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">25/07</text><text x="395.4" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">25/10</text><text x="463.5" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">26/01</text><text x="531.5" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">26/04</text><text x="599.6" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">26/07</text><text x="645.0" y="230" font-size="9" fill="#94a3b8" text-anchor="middle">26/09</text>
+<text x="645.0" y="35.8" font-size="11" fill="#2563eb" text-anchor="end" font-weight="600">双锚策略 ¥57,276</text>
+<text x="645.0" y="96.3" font-size="11" fill="#64748b" text-anchor="end">固定1x ¥42,824</text>
+<g id="cr1" style="display:none;pointer-events:none">
+<line id="vl1" y1="14" y2="212" stroke="#f59e0b" stroke-width="1.1" stroke-dasharray="3,3"/>
+<line id="hl1" x1="55" x2="645.0" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="2,3"/>
+<circle id="dp1S" r="3.6" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+<circle id="dp1F" r="3.6" fill="#fff" stroke="#64748b" stroke-width="2"/>
+<text id="tt1" y="14" font-size="11" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="4" paint-order="stroke" text-anchor="middle"></text>
 </g>
 </svg>
-<p style="font-size:12px;color:#94a3b8;margin-top:6px" data-page-node-id="GPSOFNaZy9VAzKtsj6csGC">注：曲线为"累计投入 + 持有"的账户市值（新投入直接计入），非单一持仓净值曲线；策略月投入更高（1.5x/2x 触发），曲线抬升含新增资金因素。正式期末口径按两腿共同点位日（2026-08-27）计 ¥56,523；曲线末点按各腿当月最后交易日估值（A 腿含 8-28）为 ¥56,546，差 ¥22 系 1 个交易日价差。</p>
-<h3 data-page-node-id="iLA65x0SEPJrXycCpEaUVG">每月投入对比（¥）<span style="font-size:11px;color:#94a3b8;font-weight:400;margin-left:10px" data-page-node-id="lW1hrQmq3YMEBGsuFAfB2w">■ 双锚策略　■ 固定1x（基准 ¥1,500/月）</span></h3>
-<svg id="ch2" viewBox="0 0 660.0 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:-apple-system,'PingFang SC',sans-serif;cursor:crosshair;display:block" data-page-node-id="mGvLOMmU2YNpp1hKlunBZH">
-<line x1="55" y1="170.0" x2="645.0" y2="170.0" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="xK5ak3hSoZh3kciyFN15B0"/><text x="48" y="173.0" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="msErMf6Ft1qkAYyuoQ4E6c"></text><line x1="55" y1="95.0" x2="645.0" y2="95.0" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="mFUR1bzErN3eN5VvuORgiL"/><text x="48" y="98.0" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="6TWn1zdE0sfm0DPDM19emr">1.8k</text><line x1="55" y1="20.0" x2="645.0" y2="20.0" stroke="#e2e8f0" stroke-width="0.6" data-page-node-id="WinfL2svhtDq0ddU1s1QfU"/><text x="48" y="23.0" font-size="9" fill="#94a3b8" text-anchor="end" data-page-node-id="37aLgAV9rricBnR4gYWvxY">3.5k</text>
-<rect data-i="0" x="46.4" y="86.4" width="7.1" height="83.6" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="R33Hv1i57cAPltflGCiKX0"><title>2024-07 策略 ¥1950</title></rect><rect data-i="0" x="56.5" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="wueFKWU94KnsUXIqPlWp6Q"><title>2024-07 固定 ¥1500</title></rect><rect data-i="1" x="70.0" y="67.1" width="7.1" height="102.9" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="ptBsOUno0eXDTE1L25erQk"><title>2024-08 策略 ¥2400</title></rect><rect data-i="1" x="80.1" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="awiUF5e60ojtV1FMg9oHo0"><title>2024-08 固定 ¥1500</title></rect><rect data-i="2" x="93.6" y="60.7" width="7.1" height="109.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="YedYyj3VExIHIZxwyXCW6m"><title>2024-09 策略 ¥2550</title></rect><rect data-i="2" x="103.7" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="5OyJjn06nZKUBzZ0se5uL0"><title>2024-09 固定 ¥1500</title></rect><rect data-i="3" x="117.2" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="yAZfYu70Dw6MGilceIjlil"><title>2024-10 策略 ¥1500</title></rect><rect data-i="3" x="127.3" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="IVDEwoqVAsYoEnujACK6KM"><title>2024-10 固定 ¥1500</title></rect><rect data-i="4" x="140.8" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="sCKD6XnK130r0PWtawBwgF"><title>2024-11 策略 ¥1500</title></rect><rect data-i="4" x="150.9" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="LXhhUXmDlfiben15cWQfVI"><title>2024-11 固定 ¥1500</title></rect><rect data-i="5" x="164.4" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="qgLMmkao5ic8HJlbW1HdHc"><title>2024-12 策略 ¥1500</title></rect><rect data-i="5" x="174.5" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="BP07SjOC6gE7Wj7sqQ7MjP"><title>2024-12 固定 ¥1500</title></rect><rect data-i="6" x="188.0" y="41.4" width="7.1" height="128.6" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="6OnlevGliduWQdNDAhDga5"><title>2025-01 策略 ¥3000</title></rect><rect data-i="6" x="198.1" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="CQtXsrmr7RYA8ZQxJO0Keu"><title>2025-01 固定 ¥1500</title></rect><rect data-i="7" x="211.6" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="XGNy8hKU4HnlMAGyF9SGcb"><title>2025-02 策略 ¥1500</title></rect><rect data-i="7" x="221.7" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="c5L4jFQYGofeTQmCjtlb9m"><title>2025-02 固定 ¥1500</title></rect><rect data-i="8" x="235.2" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="yZwhfB9lwd2cPOR162KTE2"><title>2025-03 策略 ¥1500</title></rect><rect data-i="8" x="245.3" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="GInV2IP3mHlsYySrP9vJWO"><title>2025-03 固定 ¥1500</title></rect><rect data-i="9" x="258.8" y="41.4" width="7.1" height="128.6" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="wHUzQGdlqA06VHDQZfWv8U"><title>2025-04 策略 ¥3000</title></rect><rect data-i="9" x="268.9" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="012Zk7Vxq6FJSPEBPYpApG"><title>2025-04 固定 ¥1500</title></rect><rect data-i="10" x="282.4" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="rAS7vor7G8JBTXX8PEXlh0"><title>2025-05 策略 ¥1500</title></rect><rect data-i="10" x="292.5" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="sMQE41G0aEHIy384PuPJbO"><title>2025-05 固定 ¥1500</title></rect><rect data-i="11" x="306.0" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="eLojpVtkbRif66k38aqQbK"><title>2025-06 策略 ¥1500</title></rect><rect data-i="11" x="316.1" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="NZ90XHj6i732ixQpNP3fCR"><title>2025-06 固定 ¥1500</title></rect><rect data-i="12" x="329.6" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="V0EpmruN8U8FGRrEtCEfQB"><title>2025-07 策略 ¥1500</title></rect><rect data-i="12" x="339.7" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="wfTjDagF5QoRxo2Y3EX5OT"><title>2025-07 固定 ¥1500</title></rect><rect data-i="13" x="353.2" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="uRCKBm7vGsFUC5eszXvKWI"><title>2025-08 策略 ¥1500</title></rect><rect data-i="13" x="363.3" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="D2zPtwawQboGQVqTrUteTd"><title>2025-08 固定 ¥1500</title></rect><rect data-i="14" x="376.8" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="OY2nDcfZFCukzFcu7kgS9v"><title>2025-09 策略 ¥1500</title></rect><rect data-i="14" x="386.9" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="i2fD6BorQMttZXioerTUC4"><title>2025-09 固定 ¥1500</title></rect><rect data-i="15" x="400.4" y="67.1" width="7.1" height="102.9" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="qaaIGya9L8C5YfBGHBycr1"><title>2025-10 策略 ¥2400</title></rect><rect data-i="15" x="410.5" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="vxYG2jAWNWwQWTCuQjUPFK"><title>2025-10 固定 ¥1500</title></rect><rect data-i="16" x="424.0" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="Wl9dGkJJEtGQbZiDpNrvKx"><title>2025-11 策略 ¥1500</title></rect><rect data-i="16" x="434.1" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="bTTNskOXxlfKoRIsCQAWSG"><title>2025-11 固定 ¥1500</title></rect><rect data-i="17" x="447.6" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="DepUubWxFKWtvJjAFJcrUy"><title>2025-12 策略 ¥1500</title></rect><rect data-i="17" x="457.7" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="JJ76uX51AOFD4NsY1CX7Ax"><title>2025-12 固定 ¥1500</title></rect><rect data-i="18" x="471.2" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="eBT1L6e9VfSCHLCbsjG3na"><title>2026-01 策略 ¥1500</title></rect><rect data-i="18" x="481.3" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="gPGA91tKoaoPeMrF2XfDge"><title>2026-01 固定 ¥1500</title></rect><rect data-i="19" x="494.8" y="67.1" width="7.1" height="102.9" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="YpVPEZ147uVG0CpXdjTFQc"><title>2026-02 策略 ¥2400</title></rect><rect data-i="19" x="504.9" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="2zn2GS468z9gsRajYjrjC1"><title>2026-02 固定 ¥1500</title></rect><rect data-i="20" x="518.4" y="67.1" width="7.1" height="102.9" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="95Wqge93WXE8pwGYUrrYBh"><title>2026-03 策略 ¥2400</title></rect><rect data-i="20" x="528.5" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="9LQvaxX62BCCLC0sYXlAjr"><title>2026-03 固定 ¥1500</title></rect><rect data-i="21" x="542.0" y="105.7" width="7.1" height="64.3" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="BdB1t3TrjBdBirmlM2r9D0"><title>2026-04 策略 ¥1500</title></rect><rect data-i="21" x="552.1" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="unyt01OZNV2o3zGBZSlV6C"><title>2026-04 固定 ¥1500</title></rect><rect data-i="22" x="565.6" y="67.1" width="7.1" height="102.9" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="N22ftqarxrYly116xeDEVD"><title>2026-05 策略 ¥2400</title></rect><rect data-i="22" x="575.7" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="8i3ci9brzM4z4QGEK0Uorw"><title>2026-05 固定 ¥1500</title></rect><rect data-i="23" x="589.2" y="41.4" width="7.1" height="128.6" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="pUGhXv68gnn9JEsMG6Wuao"><title>2026-06 策略 ¥3000</title></rect><rect data-i="23" x="599.3" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="qh1dOKns0UYUE3KsqM2XhJ"><title>2026-06 固定 ¥1500</title></rect><rect data-i="24" x="612.8" y="67.1" width="7.1" height="102.9" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="aDusjskFOhtZYYSaaiFd3V"><title>2026-07 策略 ¥2400</title></rect><rect data-i="24" x="622.9" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="hKvycVREmkR4L5K3kdFTVc"><title>2026-07 固定 ¥1500</title></rect><rect data-i="25" x="636.4" y="80.0" width="7.1" height="90.0" rx="2" fill="#2563eb" opacity="0.85" data-page-node-id="A65VUhe1HWLlzGJAlyhPt5"><title>2026-08 策略 ¥2100</title></rect><rect data-i="25" x="646.5" y="105.7" width="7.1" height="64.3" rx="2" fill="#94a3b8" opacity="0.7" data-page-node-id="h4pQpCQwN3tPVZjLMGVvCc"><title>2026-08 固定 ¥1500</title></rect>
-<text x="55.0" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="e2Yz8h7gFChAStpYx80JZw">24/07</text><text x="125.8" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="CQnNDtwXKdIbQPqefaLpS3">24/10</text><text x="196.6" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="MarKiYcA4yG9Z0E5A4KCDH">25/01</text><text x="267.4" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="GPkEaljml3zbEBoAC7pFHH">25/04</text><text x="338.2" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="Gu7j4x0oLUO2PzFqe50AMA">25/07</text><text x="409.0" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="KAnfEGYe9k06EFsKokrReK">25/10</text><text x="479.8" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="Vz7R4AWgeK5XctAvs8gQmj">26/01</text><text x="550.6" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="FKhKUL6wptUYGNGtrBHk3T">26/04</text><text x="621.4" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="IpKMLVoVPTEFHsowjTwgJU">26/07</text><text x="645.0" y="192" font-size="9" fill="#94a3b8" text-anchor="middle" data-page-node-id="tqFo2RG5ifpmd9kcD5KFzX">26/08</text>
-<g id="cr2" style="display:none;pointer-events:none" data-page-node-id="olVG3rFOBkQ9N2sab3p955">
-<line id="vl2" y1="14" y2="170" stroke="#f59e0b" stroke-width="1.1" stroke-dasharray="3,3" data-page-node-id="E2H3vCOA3T0LoErsmm221Y"/>
-<rect id="slot2" y="14" height="156" width="14.6" fill="#f59e0b" opacity="0.10" data-page-node-id="c59i8nj7IyAPsIDphhFHNy"/>
-<line id="hl2" x1="55" x2="645.0" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="2,3" data-page-node-id="tkESpy1VfxJUfICis0hDwK"/>
-<text id="tt2" y="14" font-size="11" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="4" paint-order="stroke" text-anchor="middle" data-page-node-id="428nJH2SOqhWboHR7bRrb4"></text>
+<p style="font-size:12px;color:#94a3b8;margin-top:6px">注：曲线为"累计投入 + 持有"的账户市值（新投入直接计入），非单一持仓净值曲线；策略月投入更高（1.5x/2x 触发），曲线抬升含新增资金因素。期末口径按两腿共同点位日（2026-09-24）计 ¥57,276；月表按各腿当月最后交易日分别估值，两序列月末日可能差 1 个交易日，故末行市值与卡片口径可能略有差异（本次差 ¥0）。</p>
+<h3>每月投入对比（¥）<span style="font-size:11px;color:#94a3b8;font-weight:400;margin-left:10px">■ 双锚策略　■ 固定1x（基准 ¥1,500/月）</span></h3>
+<svg id="ch2" viewBox="0 0 660.0 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:-apple-system,'PingFang SC',sans-serif;cursor:crosshair;display:block">
+<line x1="55" y1="170.0" x2="645.0" y2="170.0" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="173.0" font-size="9" fill="#94a3b8" text-anchor="end"></text><line x1="55" y1="95.0" x2="645.0" y2="95.0" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="98.0" font-size="9" fill="#94a3b8" text-anchor="end">1.8k</text><line x1="55" y1="20.0" x2="645.0" y2="20.0" stroke="#e2e8f0" stroke-width="0.6"/><text x="48" y="23.0" font-size="9" fill="#94a3b8" text-anchor="end">3.5k</text>
+<rect data-i="0" x="46.7" y="86.4" width="6.8" height="83.6" rx="2" fill="#2563eb" opacity="0.85"><title>2024-07 策略 ¥1950</title></rect><rect data-i="0" x="56.5" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2024-07 固定 ¥1500</title></rect><rect data-i="1" x="69.4" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2024-08 策略 ¥2400</title></rect><rect data-i="1" x="79.2" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2024-08 固定 ¥1500</title></rect><rect data-i="2" x="92.1" y="60.7" width="6.8" height="109.3" rx="2" fill="#2563eb" opacity="0.85"><title>2024-09 策略 ¥2550</title></rect><rect data-i="2" x="101.9" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2024-09 固定 ¥1500</title></rect><rect data-i="3" x="114.8" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2024-10 策略 ¥1500</title></rect><rect data-i="3" x="124.6" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2024-10 固定 ¥1500</title></rect><rect data-i="4" x="137.5" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2024-11 策略 ¥1500</title></rect><rect data-i="4" x="147.3" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2024-11 固定 ¥1500</title></rect><rect data-i="5" x="160.2" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2024-12 策略 ¥1500</title></rect><rect data-i="5" x="170.0" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2024-12 固定 ¥1500</title></rect><rect data-i="6" x="182.8" y="41.4" width="6.8" height="128.6" rx="2" fill="#2563eb" opacity="0.85"><title>2025-01 策略 ¥3000</title></rect><rect data-i="6" x="192.7" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-01 固定 ¥1500</title></rect><rect data-i="7" x="205.5" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-02 策略 ¥1500</title></rect><rect data-i="7" x="215.3" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-02 固定 ¥1500</title></rect><rect data-i="8" x="228.2" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-03 策略 ¥1500</title></rect><rect data-i="8" x="238.0" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-03 固定 ¥1500</title></rect><rect data-i="9" x="250.9" y="41.4" width="6.8" height="128.6" rx="2" fill="#2563eb" opacity="0.85"><title>2025-04 策略 ¥3000</title></rect><rect data-i="9" x="260.7" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-04 固定 ¥1500</title></rect><rect data-i="10" x="273.6" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-05 策略 ¥1500</title></rect><rect data-i="10" x="283.4" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-05 固定 ¥1500</title></rect><rect data-i="11" x="296.3" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-06 策略 ¥1500</title></rect><rect data-i="11" x="306.1" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-06 固定 ¥1500</title></rect><rect data-i="12" x="319.0" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-07 策略 ¥1500</title></rect><rect data-i="12" x="328.8" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-07 固定 ¥1500</title></rect><rect data-i="13" x="341.7" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-08 策略 ¥1500</title></rect><rect data-i="13" x="351.5" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-08 固定 ¥1500</title></rect><rect data-i="14" x="364.4" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-09 策略 ¥1500</title></rect><rect data-i="14" x="374.2" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-09 固定 ¥1500</title></rect><rect data-i="15" x="387.1" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2025-10 策略 ¥2400</title></rect><rect data-i="15" x="396.9" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-10 固定 ¥1500</title></rect><rect data-i="16" x="409.8" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-11 策略 ¥1500</title></rect><rect data-i="16" x="419.6" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-11 固定 ¥1500</title></rect><rect data-i="17" x="432.5" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2025-12 策略 ¥1500</title></rect><rect data-i="17" x="442.3" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2025-12 固定 ¥1500</title></rect><rect data-i="18" x="455.2" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2026-01 策略 ¥1500</title></rect><rect data-i="18" x="465.0" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-01 固定 ¥1500</title></rect><rect data-i="19" x="477.8" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2026-02 策略 ¥2400</title></rect><rect data-i="19" x="487.7" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-02 固定 ¥1500</title></rect><rect data-i="20" x="500.5" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2026-03 策略 ¥2400</title></rect><rect data-i="20" x="510.3" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-03 固定 ¥1500</title></rect><rect data-i="21" x="523.2" y="105.7" width="6.8" height="64.3" rx="2" fill="#2563eb" opacity="0.85"><title>2026-04 策略 ¥1500</title></rect><rect data-i="21" x="533.0" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-04 固定 ¥1500</title></rect><rect data-i="22" x="545.9" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2026-05 策略 ¥2400</title></rect><rect data-i="22" x="555.7" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-05 固定 ¥1500</title></rect><rect data-i="23" x="568.6" y="41.4" width="6.8" height="128.6" rx="2" fill="#2563eb" opacity="0.85"><title>2026-06 策略 ¥3000</title></rect><rect data-i="23" x="578.4" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-06 固定 ¥1500</title></rect><rect data-i="24" x="591.3" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2026-07 策略 ¥2400</title></rect><rect data-i="24" x="601.1" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-07 固定 ¥1500</title></rect><rect data-i="25" x="614.0" y="80.0" width="6.8" height="90.0" rx="2" fill="#2563eb" opacity="0.85"><title>2026-08 策略 ¥2100</title></rect><rect data-i="25" x="623.8" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-08 固定 ¥1500</title></rect><rect data-i="26" x="636.7" y="67.1" width="6.8" height="102.9" rx="2" fill="#2563eb" opacity="0.85"><title>2026-09 策略 ¥2400</title></rect><rect data-i="26" x="646.5" y="105.7" width="6.8" height="64.3" rx="2" fill="#94a3b8" opacity="0.7"><title>2026-09 固定 ¥1500</title></rect>
+<text x="55.0" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">24/07</text><text x="123.1" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">24/10</text><text x="191.2" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">25/01</text><text x="259.2" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">25/04</text><text x="327.3" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">25/07</text><text x="395.4" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">25/10</text><text x="463.5" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">26/01</text><text x="531.5" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">26/04</text><text x="599.6" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">26/07</text><text x="645.0" y="192" font-size="9" fill="#94a3b8" text-anchor="middle">26/09</text>
+<g id="cr2" style="display:none;pointer-events:none">
+<line id="vl2" y1="14" y2="170" stroke="#f59e0b" stroke-width="1.1" stroke-dasharray="3,3"/>
+<rect id="slot2" y="14" height="156" width="14.1" fill="#f59e0b" opacity="0.10"/>
+<line id="hl2" x1="55" x2="645.0" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="2,3"/>
+<text id="tt2" y="14" font-size="11" font-weight="600" fill="#334155" stroke="#ffffff" stroke-width="4" paint-order="stroke" text-anchor="middle"></text>
 </g>
 </svg>
 </div>
 
-<div class="card" data-page-node-id="cyD8wVdF5tX0krQiWLPsAF">
-<h2 data-page-node-id="ViiawutOIHLR0tvVCNqAmc">三、月度逐腿触发明细（26 期）</h2>
-<table data-page-node-id="FKWyeI5XDppzRDddbSDrrS">
-<tr data-page-node-id="Yy7D6wEEGcyYboVBqFhDZi"><th style="width:64px" data-page-node-id="kVcyo5BDCki81YJcIAMBUU">月份</th><th data-page-node-id="cbQXEmUTTy6AvHDmGmnrYb">腿A · 标普红利低波50（基准 ¥600）</th><th data-page-node-id="3P14e4PVTPFrouSyKlxRN2">腿B · 中证红利质量（基准 ¥900）</th><th data-page-node-id="FtHILrteeeYO1LIBH1rI6z">策略当月</th><th data-page-node-id="RkbvlGmRPCApDRlnt46QqJ">固定当月</th><th data-page-node-id="2GpxXyAinv5SFMFAeMb3YP">策略市值</th><th data-page-node-id="HgHtzWJTaScXemZlTlMS9v">固定市值</th></tr>
-<tr data-page-node-id="qgLZVni1bC4cgenTCMBZBL">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="34YlO7KOoaRStWNtaulsWG">2024-07</td>
-<td style="font-size:12px" data-page-node-id="tSEnZSmKoRIFKleHB9PFnD">07/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="8xmE4PhnaQ1fLgWdLrkuAu">07/11 1.5x ¥1,350</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="FAMLNDF4wregXHr4bd29QG">¥1,950</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="KIfBk7bkYfmG1KB4j0uEJd">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="13PLTs4wZG4woCBSrtiQJU">¥1,917</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="Dj3BFYsvpxj5HMvb7EbVUR">¥1,500</td>
+<div class="card">
+<h2>三、月度逐腿触发明细（27 期）</h2>
+<table>
+<tr><th style="width:64px">月份</th><th>腿A · 标普红利低波50（基准 ¥600）</th><th>腿B · 中证红利质量（基准 ¥900）</th><th>策略当月</th><th>固定当月</th><th>策略市值</th><th>固定市值</th></tr>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2024-07</td>
+<td style="font-size:12px">07/31 1x ¥600</td>
+<td style="font-size:12px">07/11 1.5x ¥1,350</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,950</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥1,917</td>
+<td style="text-align:right;color:#94a3b8">¥1,500</td>
 </tr>
-<tr data-page-node-id="kXMgDB6JAoeraE40J2dXYq">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="HCwJ1rZgbrfBRKja2b5uCl">2024-08</td>
-<td style="font-size:12px" data-page-node-id="YK5C4eFxnuOD1de147yeBo">08/30 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="Mazk0aUUZBFAnc0XaEsHfr">08/01 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="WHnqrYaIemT39ZNWW2NZEA">¥2,400</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="7Yco8zVJFCXFtdGPnGQMed">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="FQ2tUSQflRW5WuJQgGyC5e">¥4,207</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="qBXZbKYuxME1xgavp75O3U">¥2,952</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2024-08</td>
+<td style="font-size:12px">08/30 1x ¥600</td>
+<td style="font-size:12px">08/01 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥4,207</td>
+<td style="text-align:right;color:#94a3b8">¥2,952</td>
 </tr>
-<tr data-page-node-id="xnpzrBIXD1ENCl4IR24dum">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="a4NyJJuDMX9h4gdm7pa8pU">2024-09</td>
-<td style="font-size:12px" data-page-node-id="nISuBjEOHejLalqSr55Nwo">09/11 ⚡2x* ¥1,200</td>
-<td style="font-size:12px" data-page-node-id="DSJGmkfoPOX8V8aiQEZO6B">09/02 1.5x ¥1,350</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="oGFB8qV2dQ1IBcVw7Z17Pz">¥2,550</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="lI0COVATQcG8v5He8VFmHj">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="D0nQiJKKMO0r5Mg2S3y4mj">¥8,108</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="MzUWrXvTURvtMgIfAvzr5P">¥5,001</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2024-09</td>
+<td style="font-size:12px">09/11 ⚡2x* ¥1,200</td>
+<td style="font-size:12px">09/02 1.5x ¥1,350</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,550</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥8,108</td>
+<td style="text-align:right;color:#94a3b8">¥5,001</td>
 </tr>
-<tr data-page-node-id="z8KitZGZqTqDLy06ExxFLq">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="ZDMmMi6F084aG8Mxvt9AHt">2024-10</td>
-<td style="font-size:12px" data-page-node-id="wGhsoBJgta5wtdPGpIwtWa">10/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="RVeAjHwiHiBzfYBPMEBOQl">10/31 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="xJQxLnK4XGTQv6Z8AGoXz3">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="Jr5jai9kfFJWFcQZVb1huV">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="n94jjDsejERSVPx27FXw74">¥9,171</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="I599ttAGqWgQwGJ2gfSBoH">¥6,231</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2024-10</td>
+<td style="font-size:12px">10/31 1x ¥600</td>
+<td style="font-size:12px">10/31 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥9,171</td>
+<td style="text-align:right;color:#94a3b8">¥6,231</td>
 </tr>
-<tr data-page-node-id="YrDacl4fE1Erc09GPeJwlT">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="3IlsrK6Nrtqp555tGgyhKe">2024-11</td>
-<td style="font-size:12px" data-page-node-id="HUV0UYjOneeDKK7pnoaD5u">11/29 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="zjaQY6UWqA6gFY2YY3nxDC">11/29 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="vRqEA9TAIxfLc0jjHqeMA2">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="m0B5gd83WfHcuUwhHwz8iO">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="cDO9ayrMJZI1RufradiDsQ">¥10,671</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="4yKB2K8Y0pMykwLEZiS45Y">¥7,743</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2024-11</td>
+<td style="font-size:12px">11/29 1x ¥600</td>
+<td style="font-size:12px">11/29 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥10,671</td>
+<td style="text-align:right;color:#94a3b8">¥7,743</td>
 </tr>
-<tr data-page-node-id="n0GdAsviqXrvgCMwFK5gAM">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="PUZIbscpCGddODDsM4KnvB">2024-12</td>
-<td style="font-size:12px" data-page-node-id="GG9iwSJPmBZkGN4sq3VD3l">12/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="GOmc0VIGafWmRFgfJaPjgL">12/31 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="qWmcA56MRO5XBAF3S40j6y">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="16Ka2VH6HYIcdQTy4b41qs">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="HUC72DwPh156qBvdFd4rHo">¥12,518</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="VXqQxtDDWGEAuHtwvK5wyc">¥9,502</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2024-12</td>
+<td style="font-size:12px">12/31 1x ¥600</td>
+<td style="font-size:12px">12/31 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥12,518</td>
+<td style="text-align:right;color:#94a3b8">¥9,502</td>
 </tr>
-<tr data-page-node-id="8wkrOktjPOshxpyvF2tqdC">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="GYw6Frhulql9TtVcuSLRXZ">2025-01</td>
-<td style="font-size:12px" data-page-node-id="Tq5N1iya7JlxdFecCEsX0d">01/09 ⚡2x* ¥1,200</td>
-<td style="font-size:12px" data-page-node-id="kevkZGirDU35xByXM8yudq">01/03 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="vXh1RAEdFpPNIOy7BCvqgm">¥3,000</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="NnOlTorJ5w6faU37i5FX6G">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="RrymTZGUTDaAwWRWXPgIEX">¥15,311</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="SPyukNie3xuGYLBqv74DLE">¥10,813</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-01</td>
+<td style="font-size:12px">01/09 ⚡2x* ¥1,200</td>
+<td style="font-size:12px">01/03 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥3,000</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥15,311</td>
+<td style="text-align:right;color:#94a3b8">¥10,813</td>
 </tr>
-<tr data-page-node-id="xNOzor4qC4FBFEj0ASEYRp">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="YI1FrTnPvqzR5dgzdyRQu5">2025-02</td>
-<td style="font-size:12px" data-page-node-id="hgt3cAeyiKweCFT46gzhSj">02/28 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="HV2RsVA4d8ZvNON8MjBCOu">02/28 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="Jycv89eANsMemDmyoHVNoV">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="wAyaHom8T6C6bkTYqupdH4">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="NkoZPDiHkJNjfM5tAlZOMB">¥16,535</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="wDDWe0fZ5FQ1bcbnJFC6HN">¥12,119</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-02</td>
+<td style="font-size:12px">02/28 1x ¥600</td>
+<td style="font-size:12px">02/28 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥16,535</td>
+<td style="text-align:right;color:#94a3b8">¥12,119</td>
 </tr>
-<tr data-page-node-id="DJGziJsIkGX2POOafW9y12">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="xrklDdXKXHFUFTbhAtaDow">2025-03</td>
-<td style="font-size:12px" data-page-node-id="9URvegIcEn9ivGwVeGz1SJ">03/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="5KN6In50y8Y40vluKSayDt">03/31 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="PJaHJ6BzcWnSXVBueGvPcB">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="4BiWWZSfOcfEiyHngtUdLQ">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="y58pRKB1E2nEJDnYm1RAjF">¥18,551</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="kMqOd0a9LMliO7lUmwzORS">¥13,994</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-03</td>
+<td style="font-size:12px">03/31 1x ¥600</td>
+<td style="font-size:12px">03/31 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥18,551</td>
+<td style="text-align:right;color:#94a3b8">¥13,994</td>
 </tr>
-<tr data-page-node-id="5lqd23gfbNcQhSfwyqmHLH">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="4q2Wj5f9M4d3KjmyLEfOWq">2025-04</td>
-<td style="font-size:12px" data-page-node-id="NhXHS3SwJZQEFKaIvLcuT0">04/07 ⚡2x* ¥1,200</td>
-<td style="font-size:12px" data-page-node-id="iWhZhyTKCxhwBAtO3ewfDy">04/07 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="aoyhdaBqFAlOGYGl6D7P7s">¥3,000</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="rBPdfbYipMQ3iG7G3q2Tsj">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="DaUZ9qoTEAU2vibu9qStt8">¥21,261</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="EXHM1qQbRLwjVmvUs7ILFJ">¥15,187</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-04</td>
+<td style="font-size:12px">04/07 ⚡2x* ¥1,200</td>
+<td style="font-size:12px">04/07 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥3,000</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥21,261</td>
+<td style="text-align:right;color:#94a3b8">¥15,187</td>
 </tr>
-<tr data-page-node-id="lWrbnVMFzwUQrCNFP8iwEv">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="25svWL5YAp1FYbONNZ6hXp">2025-05</td>
-<td style="font-size:12px" data-page-node-id="W4YpMxzX7Av8lEOEXHKpvj">05/30 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="4cpMkGUNHX004edYhtAHOe">05/30 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="kFQiEfrrCKrJGuVTq9D6gG">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="bWmFR2IVDMUyKF18W4owpR">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="qRI9k5odo33Wr9clF1kMxX">¥23,497</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="vIig2EP4jNiE6zzpBUHOw7">¥17,210</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-05</td>
+<td style="font-size:12px">05/30 1x ¥600</td>
+<td style="font-size:12px">05/30 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥23,497</td>
+<td style="text-align:right;color:#94a3b8">¥17,210</td>
 </tr>
-<tr data-page-node-id="yOhAJ74bloN1AlutSMRo2n">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="MFdLrbnFuqOaVwfaF0vBGQ">2025-06</td>
-<td style="font-size:12px" data-page-node-id="8psVuuP8uJzWpBOyCdpyL0">06/30 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="85HVjFcrpmgGqqZFUKFYBL">06/30 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="e4aavAdHJAD9pkAaNKWdr2">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="rinXhIToGr6yA83k4yht5H">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="GGAr7DlhZUKDIu4v37hw2r">¥25,128</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="CYB8qrZ06WYBpfutydE7w9">¥18,808</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-06</td>
+<td style="font-size:12px">06/30 1x ¥600</td>
+<td style="font-size:12px">06/30 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥25,128</td>
+<td style="text-align:right;color:#94a3b8">¥18,808</td>
 </tr>
-<tr data-page-node-id="n0PH2jxrpzd10xh9ZzrUoq">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="k1l4ZHAsNXBnhdK6cV2nmY">2025-07</td>
-<td style="font-size:12px" data-page-node-id="ZVFg3WiyX4KHOTbQkxN9VJ">07/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="dRUs3UJm5jgkiVNLnoqgl8">07/31 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="tnrj2ZMUGIKq9X73MTi6n5">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="DX88HnD2wD6kZ9GaDgc91e">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="ijNGbtCZhaX70jik9sAAE3">¥27,161</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="ghovQ5hrIQTATNuVcitayT">¥20,702</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-07</td>
+<td style="font-size:12px">07/31 1x ¥600</td>
+<td style="font-size:12px">07/31 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥27,161</td>
+<td style="text-align:right;color:#94a3b8">¥20,702</td>
 </tr>
-<tr data-page-node-id="aLhbXu0Dw1DM7AxRDgiN9R">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="q9kUTogLaECGbsb9OPno0T">2025-08</td>
-<td style="font-size:12px" data-page-node-id="gJEUqUDfmKfKpI8pEsDkZt">08/29 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="ONiucM1e3MwLju2i4z1ByX">08/29 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="dNNdBi4WFAuoh957OopGTB">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="70zfHClBOkUgTlcCBcirUi">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="kp2BRFu53njmybw9Ay6APg">¥30,232</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="LzaIHbaxs4ugavz2iIhcJg">¥23,369</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-08</td>
+<td style="font-size:12px">08/29 1x ¥600</td>
+<td style="font-size:12px">08/29 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥30,232</td>
+<td style="text-align:right;color:#94a3b8">¥23,369</td>
 </tr>
-<tr data-page-node-id="gUARTyWuFlycs7mB9DE5FD">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="knjaEwUtXQbWct5AkxLcIb">2025-09</td>
-<td style="font-size:12px" data-page-node-id="dhey0RoBW2gdbkuJ1wzoSI">09/30 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="4XNHRWFp9WcpjIkvE8JHvi">09/30 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="D6Xkngb41FEGypuuMGRY3u">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="BQKkQvlYfkLIC6pNPi4sGx">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="CE9EuuB3oljx9NxA2dT3py">¥32,111</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="rrdkVPtyBCXxbuoYfJB37p">¥25,143</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-09</td>
+<td style="font-size:12px">09/30 1x ¥600</td>
+<td style="font-size:12px">09/30 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥32,111</td>
+<td style="text-align:right;color:#94a3b8">¥25,143</td>
 </tr>
-<tr data-page-node-id="XW19izo4RmdmLTt7jRFGtc">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="XkE9PHPZALQX0gffFTPPWH">2025-10</td>
-<td style="font-size:12px" data-page-node-id="VF8WcGNxTWsJFuybEvQ4RA">10/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="Wm9zCewXJ6KrTnLOeL9FLp">10/17 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="k56KQrY0CF1TESmZp03Lvm">¥2,400</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="3ZBkRIp0uWCDBsmRvPrHJM">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="yaDNGuWOw2wYrZlBbdtVK3">¥35,082</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="8gBSwcBhDaFtr2ZsHsCHkI">¥27,048</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-10</td>
+<td style="font-size:12px">10/31 1x ¥600</td>
+<td style="font-size:12px">10/17 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥35,082</td>
+<td style="text-align:right;color:#94a3b8">¥27,048</td>
 </tr>
-<tr data-page-node-id="BBsy6I3cLafrEsi8oZaLPD">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="RVyIhBhFLmvdw1JRhIc6TS">2025-11</td>
-<td style="font-size:12px" data-page-node-id="IpmK6FOIDuhv3S2kHlsPjW">11/28 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="BB7TPrVRa6myyvGjft0xOy">11/28 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="AMUuWCIOV73gjyHILPLWVA">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="HbZWbACjIgCE5fhaEP2zye">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="VLQDuoPKHcqc8SrT7YFPAk">¥36,231</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="grZWzDi6BrNAYuXoQMs6ne">¥28,292</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-11</td>
+<td style="font-size:12px">11/28 1x ¥600</td>
+<td style="font-size:12px">11/28 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥36,231</td>
+<td style="text-align:right;color:#94a3b8">¥28,292</td>
 </tr>
-<tr data-page-node-id="GvJ76gwu3ki38erUALH1G3">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="x6oSfUQxNLYv2fO8Nn0EHr">2025-12</td>
-<td style="font-size:12px" data-page-node-id="8jFLs1euZ7alwRACmFozrt">12/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="S8OIKNwRU0TyJum4C2zfAf">12/31 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="f1ALHr7teTY1MVnRkK8e7d">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="V29eaP2JgLgVqDL29X9EAK">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="vYjxsvTCwnXnTXfCt7ojPP">¥38,665</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="0fHKFpVsaCe0v6uBjxByXN">¥30,481</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2025-12</td>
+<td style="font-size:12px">12/31 1x ¥600</td>
+<td style="font-size:12px">12/31 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥38,665</td>
+<td style="text-align:right;color:#94a3b8">¥30,481</td>
 </tr>
-<tr data-page-node-id="PHyZsPAbjbNXzg2s1dNC1n">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="0rrvXOHOfCCOvVFYJFc6W7">2026-01</td>
-<td style="font-size:12px" data-page-node-id="fq0pj6ARwkIpYnIb84Kd4i">01/30 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="n93Uqt9AFtvtJjwaHPWFlO">01/30 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="WNvObcqbHqBTLsOFa7ULnA">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="uCE3SaI93CNppbBYPhTL0a">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="b5i8qtVdS1VEvClcKID4Zd">¥42,543</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="4LjfrEtVYsfa5d9MNpbK9i">¥33,802</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-01</td>
+<td style="font-size:12px">01/30 1x ¥600</td>
+<td style="font-size:12px">01/30 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥42,543</td>
+<td style="text-align:right;color:#94a3b8">¥33,802</td>
 </tr>
-<tr data-page-node-id="WS3hVtrs6NFcOLMHCoGPW5">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="LAISKoAY8Jj9wndks32h65">2026-02</td>
-<td style="font-size:12px" data-page-node-id="x7jw9aMASIYIhq79PM6PKE">02/27 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="SIXl7p0nT6r8DfdHyfySna">02/02 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="FHI4gC7hRdqC9FPn6BdR7D">¥2,400</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="BcXRsK5HCYt5RenSu5jNLq">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="1aDa9VOxuWU8hsBDfRPjXM">¥45,107</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="JwvPNTTZOEPcRa0QJF4MKL">¥35,396</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-02</td>
+<td style="font-size:12px">02/27 1x ¥600</td>
+<td style="font-size:12px">02/02 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥45,107</td>
+<td style="text-align:right;color:#94a3b8">¥35,396</td>
 </tr>
-<tr data-page-node-id="Z9ZvKgVl5DPkhXVdQENnvh">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="xdSHjI2w7eAsnkctO5zA1i">2026-03</td>
-<td style="font-size:12px" data-page-node-id="CRzX2pdfwA4ZfD4fLh8kjB">03/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="WOIhWTUBnLjTy5JKR7lpPK">03/23 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="aKr7kMiHHXXMMR5uuPRVFR">¥2,400</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="iOKNUstu0KjQQuG3dARw9Z">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="GDZP4n7HxOjeMVsxbbgdk3">¥46,246</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="5rK1ZGVJlc8BzJGwex3Tjp">¥35,925</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-03</td>
+<td style="font-size:12px">03/31 1x ¥600</td>
+<td style="font-size:12px">03/23 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥46,246</td>
+<td style="text-align:right;color:#94a3b8">¥35,925</td>
 </tr>
-<tr data-page-node-id="yK0L4pms9ZLhhPFcDEdNbx">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="iUVeEqrDXFz1jlDUJNaMDW">2026-04</td>
-<td style="font-size:12px" data-page-node-id="BEhEt89ODuFYd3b1sCO2Jk">04/30 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="2HmQah2XD6LYrr1iFH5L7r">04/30 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="J2bBAKIla6z6gZuDkevGvF">¥1,500</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="oaQHwE4zTt6rG8J2TTWHl4">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="3BIgVSPmjRDeUGTwwXGU85">¥47,678</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="GJJpoBXKzGV6aXOo1CyKxE">¥37,382</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-04</td>
+<td style="font-size:12px">04/30 1x ¥600</td>
+<td style="font-size:12px">04/30 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥1,500</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥47,678</td>
+<td style="text-align:right;color:#94a3b8">¥37,382</td>
 </tr>
-<tr data-page-node-id="6bbIENYTB1JhXfET3gZq7k">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="qDBDPoFzZ4TgYvUe8Wyz7N">2026-05</td>
-<td style="font-size:12px" data-page-node-id="DBW7j7wgGBleNhyNn0AjDC">05/29 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="FRSnpWKoNhUeJvUCa26oQz">05/18 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="E506l4SSQJTJ4VCUgsqYH3">¥2,400</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="yWROPtdiiLF0v87sGo7mqZ">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="VKJfsAT9rzDJ7zGPsrvL7a">¥48,239</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="muwEAjMjKLfHWnJ74AhcCA">¥37,525</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-05</td>
+<td style="font-size:12px">05/29 1x ¥600</td>
+<td style="font-size:12px">05/18 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥48,239</td>
+<td style="text-align:right;color:#94a3b8">¥37,525</td>
 </tr>
-<tr data-page-node-id="vocGVcOWWa12UAG67HqhhL">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="CaMnOaWa4uCUPYmAoRfRcD">2026-06</td>
-<td style="font-size:12px" data-page-node-id="FJAnI4UBkH6YXsy0QhvIzH">06/18 ⚡2x* ¥1,200</td>
-<td style="font-size:12px" data-page-node-id="h9GXZdg2X0rLSeAlucT11L">06/08 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="BAUCIfNaHKXgrR2mwsXBTp">¥3,000</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="6tZ20tznU8ucQBdi4G2sq7">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="UJDSaRvUds3M1FInb6hqBQ">¥47,969</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="6KVhTtL2lD9UZbCF6JwqkO">¥36,510</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-06</td>
+<td style="font-size:12px">06/18 ⚡2x* ¥1,200</td>
+<td style="font-size:12px">06/08 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥3,000</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥47,969</td>
+<td style="text-align:right;color:#94a3b8">¥36,510</td>
 </tr>
-<tr data-page-node-id="9hAamcq9UpxtMTD0pFMhW8">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="ppdUzPKIYAHM1OLcHOUAuI">2026-07</td>
-<td style="font-size:12px" data-page-node-id="fmLvKJ2VP1dSW2R7a57laI">07/31 1x ¥600</td>
-<td style="font-size:12px" data-page-node-id="YmnvJlk3XgJ33qgcP0LQRh">07/08 ⚡2x* ¥1,800</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="vxLsZvTbl6bV7J7nAsXQIS">¥2,400</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="9ItgGMY0tBQwPB3pxL865B">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="qS3gd5LF7AI1vfNdFiZe2L">¥55,122</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="EQVlhRgELXoDHetRvDzd2q">¥41,551</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-07</td>
+<td style="font-size:12px">07/31 1x ¥600</td>
+<td style="font-size:12px">07/08 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥55,122</td>
+<td style="text-align:right;color:#94a3b8">¥41,551</td>
 </tr>
-<tr data-page-node-id="0TlhJTskFx7vlOFLYW1QOQ">
-<td style="text-align:center;font-weight:600;color:#475569" data-page-node-id="1IUu5yAwX0HUgMKhcbWWjW">2026-08</td>
-<td style="font-size:12px" data-page-node-id="obmjBHlMIodBtuCkBosGMh">08/05 ⚡2x* ¥1,200</td>
-<td style="font-size:12px" data-page-node-id="qGtxAcwbDOB3b3Ej6yU4Nw">08/28 1x ¥900</td>
-<td style="text-align:center;font-weight:600;color:#2563eb" data-page-node-id="7EiFcpWLH3NdbXGXH5CZjs">¥2,100</td>
-<td style="text-align:center;color:#64748b" data-page-node-id="XaGvQb4J5dpW5NbxUFNr5p">¥1,500</td>
-<td style="text-align:right;color:#334155" data-page-node-id="at2ocWQFMNUuq8jrl129YQ">¥56,546</td>
-<td style="text-align:right;color:#94a3b8" data-page-node-id="kxgo79zhvmp0DPQOOTUBtx">¥42,488</td>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-08</td>
+<td style="font-size:12px">08/05 ⚡2x* ¥1,200</td>
+<td style="font-size:12px">08/31 1x ¥900</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,100</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥56,913</td>
+<td style="text-align:right;color:#94a3b8">¥42,753</td>
+</tr>
+<tr>
+<td style="text-align:center;font-weight:600;color:#475569">2026-09</td>
+<td style="font-size:12px">09/24 1x ¥600</td>
+<td style="font-size:12px">09/11 ⚡2x* ¥1,800</td>
+<td style="text-align:center;font-weight:600;color:#2563eb">¥2,400</td>
+<td style="text-align:center;color:#64748b">¥1,500</td>
+<td style="text-align:right;color:#334155">¥57,276</td>
+<td style="text-align:right;color:#94a3b8">¥42,824</td>
 </tr>
 </table>
-<p style="font-size:11.5px;color:#94a3b8;margin-top:8px" data-page-node-id="IJ7QA2LzOgTDIiBGQclQRe">⚡ = 跌3%触发（较上次买入日全收益点位跌 ≥3%，当日按 2 倍投入并结束当月）；月末 1x 以当月最后一个可判定交易日收盘执行。市值按当月最后点位估值（A 用标普点位、B 用红利质量点位，两序列月末日可能差 1 个交易日）。</p>
+<p style="font-size:11.5px;color:#94a3b8;margin-top:8px">⚡ = 跌3%触发（较上次买入日全收益点位跌 ≥3%，当日按 2 倍投入并结束当月）；月末 1x 以当月最后一个可判定交易日收盘执行。市值按当月最后点位估值（A 用标普点位、B 用红利质量点位，两序列月末日可能差 1 个交易日）。</p>
 </div>
 
-<div class="card" data-page-node-id="HnMzmOC9TyQNEHV3wsAeHf">
-<h2 data-page-node-id="4XiQfzOVpcTGlbJDsivQfi">四、触发分布与结构</h2>
-<table data-page-node-id="bU1ljCSlWHCH7aCPqahBxE">
-<tr data-page-node-id="BQ5TY1m0gc0305xkdlj2jO"><th data-page-node-id="QB35tEusKKGosKgCArcWEt">触发类型</th><th data-page-node-id="h3QGoHFxV5d98B0OTx9cTL">判定条件</th><th data-page-node-id="inw1AXYjpbKnewLRRF4Bsm">次数（腿月）</th><th data-page-node-id="2AuMlVceBaAjUfIgGAYFki">投入倍数</th><th data-page-node-id="uZUolh7qOvYhCTaLAyM5EL">金额贡献</th></tr>
-<tr data-page-node-id="HzOQhvLEkdeDQCjzxcigBo"><td data-page-node-id="S8juhlUCaE2AVfgootVW7y"><b data-page-node-id="8Wb2DWnUCzGrMW17rF8QVJ">2x 抢投</b></td><td data-page-node-id="4entFfZiSvfaF19OjRtAz7">便宜度 ≥ 0.85（分位 ≤15%）</td><td style="text-align:center" data-page-node-id="pCtl7PEAN3rMBOGQ7NfKPX">0</td><td style="text-align:center" data-page-node-id="EnusX6N4CsLGoLwJWVKZhX">2x</td><td data-page-node-id="Ow5v3b4DXnvlYYDFTNFcMT">—</td></tr>
-<tr data-page-node-id="ZEXbWdXV9hogVnLN3I5i1j"><td data-page-node-id="NdWfRi4Iu43JqsBeux4qIr"><b data-page-node-id="5tf0hRx6HY1H0HCEC5TowH">1.5x 档</b></td><td data-page-node-id="7bAIRqDWOEUGIJwt25pRHv">0.65 ≤ 便宜度 &lt; 0.85（15-35% 分位）</td><td style="text-align:center" data-page-node-id="XU4tK147EoQF1mKNV49hnM">2</td><td style="text-align:center" data-page-node-id="NJpIIJv3YoE5f9REOErZaw">1.5x</td><td data-page-node-id="FLytDYJC1eqebgHrrJAOJC">+¥450（B 2024-07/09）</td></tr>
-<tr data-page-node-id="0qSGxlpjbaXSs8TnaL9se4"><td data-page-node-id="nEAepLB4z1znfrXwrMpg4P"><b data-page-node-id="K6EFuTeGUnepmygSvzZsC6">跌3% → 2x</b> ⚡</td><td data-page-node-id="JXrG3w6gVboNcg5ahbVVet">1x 档月内，较上次买入日跌 ≥3%</td><td style="text-align:center" data-page-node-id="e7nt01va2C4A0rDaNk5dXR">14</td><td style="text-align:center" data-page-node-id="Z3YAKiC0gDK3mMOAaFOyXy">2x</td><td data-page-node-id="SC77MgHhQMHG0v2PO2aHbz">A 5 次 +¥600/次；B 9 次 +¥900/次</td></tr>
-<tr data-page-node-id="ZddBf9t68TYWxSJwpJH8EY"><td data-page-node-id="AHgYvlrkN8wb17y6p6yQfd"><b data-page-node-id="sbWNg528YAhU3rBxTQQRBx">月末 1x</b></td><td data-page-node-id="PuaW86RIvUnI0VDi48Zuta">整月未触发、分位 &gt;35%</td><td style="text-align:center" data-page-node-id="ZTz8iORZtZmEHcOZ97uLrx">36</td><td style="text-align:center" data-page-node-id="dX9WoVywU08kAMJoy8mRVR">1x</td><td data-page-node-id="2DsUzpa16iPsUxnCBGCFEe">基准 ¥600/900</td></tr>
+<div class="card">
+<h2>四、触发分布与结构</h2>
+<table>
+<tr><th>触发类型</th><th>判定条件</th><th>次数（腿月）</th><th>投入倍数</th><th>金额贡献</th></tr>
+<tr><td><b>2x 抢投</b></td><td>便宜度 ≥ 0.85（分位 ≤15%）</td><td style="text-align:center">0</td><td style="text-align:center">2x</td><td>—</td></tr>
+<tr><td><b>1.5x 档</b></td><td>0.65 ≤ 便宜度 &lt; 0.85（15-35% 分位）</td><td style="text-align:center">2</td><td style="text-align:center">1.5x</td><td>+¥450（B 2024-07/09）</td></tr>
+<tr><td><b>跌3% → 2x</b> ⚡</td><td>1x 档月内，较上次买入日跌 ≥3%</td><td style="text-align:center">15</td><td style="text-align:center">2x</td><td>A 5 次 +¥600/次；B 10 次 +¥900/次</td></tr>
+<tr><td><b>月末 1x</b></td><td>整月未触发、分位 &gt;35%</td><td style="text-align:center">37</td><td style="text-align:center">1x</td><td>基准 ¥600/900</td></tr>
 </table>
-<p style="font-size:13px;margin-top:10px" data-page-node-id="1VNyFTIY0Qvd2xdcDWovGl"><b data-page-node-id="L1uYoPHMjp1u5tzv7r3TgW">结构观察</b>：14 次跌3%触发全部真实破位（跌幅 -3.1% ~ -7.8%，见每次触发点）；其中 <b data-page-node-id="opI504Y3xA1FnCu2LI2m5J">6 次发生在月初 1-3 个交易日内</b>（如上月末刚 1x 买入、次月初延续回调破 -3%），这种"快进快出"形态使 2x 资金大多买在阶段低位（如 2026-03-23 B 腿较 2 月初基准 -5.06%、2026-06-08 -4.40%）。</p>
+<p style="font-size:13px;margin-top:10px"><b>结构观察</b>：15 次跌3%触发全部真实破位（跌幅 -3.10% ~ -7.83%，最深为 2025-04-07 B 腿 -7.83%）；其中 <b>4 次发生在月初 1-3 个交易日内</b>（如上月末刚 1x 买入、次月初延续回调破 -3%），这种"快进快出"形态使 2x 资金大多买在阶段低位（如 2026-03-23 B 腿较 2 月基准 -5.06%、2026-06-08 -4.40%、2026-09-11 -3.32%）。</p>
 </div>
 
-<div class="card" data-page-node-id="EpVdjKYOE7kGGWTjyZbQB0">
-<h2 data-page-node-id="e7GUzDCbsPU4aces6GtsZZ">五、方法论与口径披露（可复核）</h2>
-<h3 data-page-node-id="ee2vZ7FdgBLQjlgIRhnSkr">窗口与数据</h3>
-<ul style="font-size:13px" data-page-node-id="WUMEEp8octpgqP1as5BYsO">
-<li data-page-node-id="pvFpcTzXcGMlvaNXnKzkGL">窗口 <b data-page-node-id="k69Bub6Gi9AdgmjsgpgsN7">2024-07-11 ~ 2026-08-27</b>（26 个月）：受 932315 红利质量 <b data-page-node-id="1ZiYohRevemEKmMJNm7WMi">2024-07-08 发布</b>、Wind 估值不回溯限制，其自身 DY 序列为全部信号中的最短腿，严格无近似口径只能自此起算。</li>
-<li data-page-node-id="TWfzPnKBsRW5oUXt9EXzRQ">估值信号四序列均取本地 data/ CSV（与每日监控同一数据源）：标普 PE/DY（2020-02 起）、中证全指 PE（2007 起）、红利质量 DY（2024-07 起）。</li>
-<li data-page-node-id="McDkLl3QdQryVVMcyzGJGY">资产价格用 <b data-page-node-id="7O6tPnanlhSeHgVLRl04A3">全收益点位</b>（sp_*.csv / zz_*.csv，隐含分红再投资），与 008163/932315 全收益指数口径一致；买入价 = 触发日收盘全收益点位，期末按 2026-08-27 共同点位日估值。</li>
+<div class="card">
+<h2>五、方法论与口径披露（可复核）</h2>
+<h3>窗口与数据</h3>
+<ul style="font-size:13px">
+<li>窗口 <b>2024-07-11 ~ 2026-09-24</b>（27 个月）：受 932315 红利质量 <b>2024-07-08 发布</b>、Wind 估值不回溯限制，其自身 DY 序列为全部信号中的最短腿，严格无近似口径只能自此起算。</li>
+<li>估值信号四序列均取本地 data/ CSV（与每日监控同一数据源）：标普 PE/DY（2020-02 起）、中证全指 PE（2007 起）、红利质量 DY（2024-07 起）。</li>
+<li>资产价格用 <b>全收益点位</b>（sp_*.csv / zz_*.csv，隐含分红再投资），与 008163/932315 全收益指数口径一致；数据源为 Wind 真全收益指数代码 <b>SPCLLHCT.SPI</b>（标普红利低波50全收益，基日 2009-01-23=1000）/ <b>932315CNY010.CSI</b>（中证红利质量全收益，基日 2013-12-31=1000），与本地序列基期逐点对齐；买入价 = 触发日收盘全收益点位，期末按 2026-09-24 共同点位日估值。</li>
 </ul>
-<h3 data-page-node-id="Cep0XS30V1p0y2tuzrbcdP">规则复刻</h3>
-<ul style="font-size:13px" data-page-node-id="Tzw9ctKraEIESKglEwV305">
-<li data-page-node-id="fasM6NRe83VT0eicJ7rtVn">分位 = expanding <span class="mono" data-page-node-id="LJ3J3OhKTAVirToo9o7oon">(le−1)/(n−1)</span>（样本 &lt;2 记 0.5），截至当天含当天，<b data-page-node-id="MQFl3Rir0p1rjZjEw2Gfd2">无前视偏差</b>——与 dca_advice.py 的 exp_rank 逐函数一致。</li>
-<li data-page-node-id="fupJkF5BlfxpWQK4HABjc6">每腿独立月度状态机：便宜度 ≥0.85 → 当日 2x；0.65–0.85 → 当日 1.5x；&lt;0.65 → 逐日监控跌3%（较上次买入日，跨月基准），触发当日 2x 并结束当月，否则月末 1x。<b data-page-node-id="KHfP3p2goiBTObZK5PBah1">每月每腿至多一次主买入，2x 封顶</b>。</li>
-<li data-page-node-id="xdn0IbRUZFcQzcLY1JrrSt">跌3% 基准按腿独立维护（与监控推送分腿显示一致）；首期无"上次买入日"，2024-07 以档位直接判定。</li>
+<h3>规则复刻</h3>
+<ul style="font-size:13px">
+<li>分位 = expanding <span class="mono">(le−1)/(n−1)</span>（样本 &lt;2 记 0.5），截至当天含当天，<b>无前视偏差</b>——与 dca_advice.py 的 exp_rank 逐函数一致。</li>
+<li>每腿独立月度状态机：便宜度 ≥0.85 → 当日 2x；0.65–0.85 → 当日 1.5x；&lt;0.65 → 逐日监控跌3%（较上次买入日，跨月基准），触发当日 2x 并结束当月，否则月末 1x。<b>每月每腿至多一次主买入，2x 封顶</b>。</li>
+<li>跌3% 基准按腿独立维护（与监控推送分腿显示一致）；首期无"上次买入日"，2024-07 以档位直接判定。</li>
 </ul>
-<div class="note" data-page-node-id="y4paPGLO5EJrgXl5wIegEa">⚠️ 说明 1：1.5x 档规则中"后续 ≤15% 分位追投 0.5x 至 2x 封顶"在 26 期样本内未实际触发（两腿 1.5x 后均未再回落至 ≤15% 分位），不影响结果。<br data-page-node-id="j6GDT1ZzWQBaQQJDK0y95i">
-⚠️ 说明 2：本窗口处于红利资产单边牛市 + 2026 年急跌急修复行情，<b data-page-node-id="vtq2DBZWzHkI3pEKF7qVWI">未覆盖任何完整熊市</b>；2x 抢投（便宜度 ≥85%）在牛市估值高位区间天然难触发，其价值需更长含熊市窗口验证（见结论四）。<br data-page-node-id="ruNTotLhqZOEkluTmvmVlw">
-⚠️ 说明 3：月度最大回撤按"持续投入账户市值"计算（-0.56% / 固定 -2.70%），新增投入会摊薄回撤，不能与单一持仓净值回撤直接对比；本窗口无资产级 -20%+ 回撤段。</div>
+<div class="note">⚠️ 说明 1：1.5x 档规则中"后续 ≤15% 分位追投 0.5x 至 2x 封顶"在 27 期样本内未实际触发（两腿 1.5x 后均未再回落至 ≤15% 分位），不影响结果。<br>
+⚠️ 说明 2：本窗口处于红利资产单边牛市 + 2026 年急跌急修复行情，<b>未覆盖任何完整熊市</b>；2x 抢投（便宜度 ≥85%）在牛市估值高位区间天然难触发，其价值需更长含熊市窗口验证（见结论四）。<br>
+⚠️ 说明 3：月度最大回撤按"持续投入账户市值"计算（-0.56% / 固定 -2.70%），新增投入会摊薄回撤，不能与单一持仓净值回撤直接对比；本窗口无资产级 -20%+ 回撤段。<br>
+⚠️ 说明 4（2026-09-27 数据校正）：本报告点位序列中 2026-08-28 ~ 2026-09-24 区间已由 Wind <b>真全收益指数</b>（SPCLLHCT.SPI / 932315CNY010.CSI）逐点校正，替换此前以"价格指数 × 日化分红累积"近似续写的数值（该 20 个交易日最大偏差 ±0.14%，其余 2900+ 交易日与真值逐点一致）；校正前后规则触发结论不变。</div>
 </div>
 
-<div class="card" data-page-node-id="LuSowjwjXQI0fXqcc5U33j">
-<h2 data-page-node-id="X3u1sEHuZKuYU54Mj2bATh">六、局限与下一步</h2>
-<ul style="font-size:13px" data-page-node-id="6sQhMmYuLZcFg8JEmLki4d">
-<li data-page-node-id="CeFliyyDKbnBpRVybxPNq2"><b data-page-node-id="LGABMdPXNWotVO3Tg6qFtn">窗口太短是硬伤</b>：26 期无完整牛熊周期，XIRR/回撤对起点（2024-07 恰逢红利回调底部区）敏感；正式定夺规则前建议补"长窗近似回测"（2020-02 起，中证腿用单锚代理）观察牛熊全貌。</li>
-<li data-page-node-id="PtMf8Z5cccbtCNIDGsI6uc">固定 1x 对照在牛市里"越拖越贵"，规则通过跌3%提前建仓占优属预期；若进入单边阴跌（跌破前低持续 -3% 后无反弹），规则会连续多月 2x 高投入，现金流压力需预留（每月上限 ¥3,000/两腿全触发）。</li>
-<li data-page-node-id="823S9cSRv6x2z8rjmIQWBV">产出文件：bt_dual_anchor.py（引擎，可复跑）/ bt_monthly.py（月度明细）/ data/ 原始 CSV，报告数据可逐笔复核。</li>
+<div class="card">
+<h2>六、局限与下一步</h2>
+<ul style="font-size:13px">
+<li><b>窗口太短是硬伤</b>：27 期无完整牛熊周期，XIRR/回撤对起点（2024-07 恰逢红利回调底部区）与期末时点（2026-09-24）敏感——本次期末从 08-27 推进到 09-24，恰逢 9 月红利回调（中证红利质量 -5.3%），XIRR 随之由 10.21% 回落至 6.71%；正式定夺规则前建议补"长窗近似回测"（2020-02 起，中证腿用单锚代理）观察牛熊全貌。</li>
+<li>固定 1x 对照在牛市里"越拖越贵"，规则通过跌3%提前建仓占优属预期；若进入单边阴跌（跌破前低持续 -3% 后无反弹），规则会连续多月 2x 高投入，现金流压力需预留（每月上限 ¥3,000/两腿全触发）。</li>
+<li>产出文件：bt_dual_anchor.py（引擎，可复跑）/ bt_monthly.py（月度明细）/ data/ 原始 CSV，报告数据可逐笔复核。</li>
 </ul>
 </div>
 
-<p style="text-align:center;color:#cbd5e1;font-size:12px;margin-top:26px" data-page-node-id="lcLdNNLMFB0T8xWBJRKAvU">双红利定投策略报告 · v1.0 基线（严格短窗 2024-07 ~ 2026-08）· 数据源 Wind（本地 CSV）· 全收益口径 · 客观测算不构成投资建议</p>
+<p style="text-align:center;color:#cbd5e1;font-size:12px;margin-top:26px">双红利定投策略报告 · v1.0 基线（严格短窗 2024-07 ~ 2026-09，27 期）· 数据源 Wind（真全收益指数 + 本地 CSV）· 全收益口径 · 客观测算不构成投资建议</p>
 </div>
 <script>
 (function(){
-var N=26, X0=55.0, STEP=23.6, VBW=660.0;
-var MON=["2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"], vS=[1916.78, 4207.2, 8107.88, 9171.09, 10671.35, 12517.52, 15311.17, 16534.69, 18551.24, 21260.95, 23497.34, 25127.53, 27161.48, 30232.42, 32111.41, 35081.96, 36231.42, 38664.88, 42542.95, 45106.96, 46245.66, 47677.74, 48239.25, 47968.59, 55121.68, 56545.52], vF=[1500.0, 2952.35, 5001.1, 6230.72, 7743.3, 9501.82, 10813.18, 12118.64, 13993.91, 15186.86, 17210.4, 18808.04, 20702.19, 23368.6, 25143.27, 27047.66, 28291.93, 30480.9, 33801.77, 35396.46, 35925.32, 37382.47, 37525.18, 36510.23, 41551.27, 42488.19], iS=[1950, 2400, 2550, 1500, 1500, 1500, 3000, 1500, 1500, 3000, 1500, 1500, 1500, 1500, 1500, 2400, 1500, 1500, 1500, 2400, 2400, 1500, 2400, 3000, 2400, 2100], iF=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500], yS=[206.0, 198.9, 186.7, 183.4, 178.7, 173.0, 164.3, 160.5, 154.2, 145.8, 138.8, 133.7, 127.4, 117.8, 111.9, 102.7, 99.1, 91.5, 79.4, 71.5, 67.9, 63.4, 61.7, 62.5, 40.2, 35.8], yF=[207.3, 202.8, 196.4, 192.6, 187.9, 182.4, 178.3, 174.2, 168.4, 164.7, 158.4, 153.4, 147.5, 139.2, 133.7, 127.7, 123.8, 117.0, 106.7, 101.7, 100.1, 95.5, 95.1, 98.2, 82.5, 79.6];
+var N=27, X0=55.0, STEP=22.692307692307693, VBW=660.0;
+var MON=["2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08", "2026-09"], vS=[1916.78, 4207.2, 8107.88, 9171.09, 10671.35, 12517.52, 15311.17, 16534.69, 18551.24, 21260.95, 23497.34, 25127.53, 27161.48, 30232.42, 32111.41, 35081.96, 36231.42, 38664.88, 42542.95, 45106.96, 46245.66, 47677.74, 48239.25, 47968.59, 55121.68, 56912.98, 57276.02], vF=[1500.0, 2952.35, 5001.1, 6230.72, 7743.3, 9501.82, 10813.18, 12118.64, 13993.91, 15186.86, 17210.4, 18808.04, 20702.19, 23368.6, 25143.27, 27047.66, 28291.93, 30480.9, 33801.77, 35396.46, 35925.32, 37382.47, 37525.18, 36510.23, 41551.27, 42752.57, 42824.13], iS=[1950, 2400, 2550, 1500, 1500, 1500, 3000, 1500, 1500, 3000, 1500, 1500, 1500, 1500, 1500, 2400, 1500, 1500, 1500, 2400, 2400, 1500, 2400, 3000, 2400, 2100, 2400], iF=[1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500], yS=[206.1, 199.1, 187.1, 183.8, 179.2, 173.5, 164.9, 161.1, 154.9, 146.6, 139.7, 134.7, 128.4, 119.0, 113.2, 104.1, 100.5, 93.1, 81.1, 73.2, 69.7, 65.3, 63.6, 64.4, 42.4, 36.9, 35.8], yF=[207.4, 202.9, 196.6, 192.8, 188.2, 182.8, 178.7, 174.7, 169.0, 165.3, 159.1, 154.1, 148.3, 140.1, 134.7, 128.8, 125.0, 118.2, 108.0, 103.1, 101.5, 97.0, 96.6, 99.7, 84.2, 80.5, 80.3];
 var BOT1=212, H1=240, BOT2=170, H2=200;
 var ch1=document.getElementById('ch1'), ch2=document.getElementById('ch2');
 var g1=document.getElementById('cr1'), g2=document.getElementById('cr2');
